@@ -7,3 +7,10 @@ for(a <- xs) {
 }
 
 println(res)
+
+//Fully functional Style
+val xs2 = List(1,2,3,4)
+
+val res2 = for(a <- xs) yield(a+1)
+
+println(res2)
